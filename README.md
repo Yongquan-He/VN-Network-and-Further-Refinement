@@ -13,7 +13,7 @@ The command can be found in the run.sh
 
 ## reference
 ```bib
-@inproceedings{DBLP:conf/cikm/HeWZTR20,
+@inproceedings{He Yongquan,
   author    = {Yongquan He and
                Zhihan Wang and
                Peng Zhang and
