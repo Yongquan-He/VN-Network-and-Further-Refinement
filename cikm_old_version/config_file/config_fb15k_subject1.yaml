@@ -1,0 +1,35 @@
+#############################selection#########################################
+task_dir: data/fb15k/
+#task_dir: data/OOKB/head-1000
+dataset: 
+cuda: True
+n_batch: 1000
+model_name: VN_WGCN
+enable_virtual: False
+hard_rule: True
+train_with_aux: False
+use_query: False
+alpha: 0.01
+
+############################## parameter can tune #####################################
+pre_epochs: 0
+epochs: 200
+negative_sample_size: 64
+filter: true
+batch_size: 1000
+use_bias: true
+label_smoothing_epsilon: 0.1
+C: 0.01
+
+input_dropout: 0.0
+dropout: 0.25
+dropout_rate: 0.25 #0.1, 0,2, 0.3
+learning_rate: 0.001 #0.001, 0.002, 0.003, 0.004
+learning_rate_decay: 1.0
+L2: 0.00
+
+embedding_dim: 200
+init_emb_size: 200 #100, 200, 300
+init_embedding_dim: 200
+gc1_emb_size: 200
+gc2_emb_size: 200
