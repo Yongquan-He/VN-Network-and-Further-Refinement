@@ -11,7 +11,7 @@ The command can be found in the run.sh
 - We also provide our data sample tools, the pipeline rule mine and instantiation
 - See construct_dataset and rule_mine
 
-## reference
+## Reference
 ```bib
 @inproceedings{He Yongquan,
   author    = {Yongquan He and
